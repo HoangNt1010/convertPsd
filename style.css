@@ -4,18 +4,26 @@
 }
 
 .header {
-    
     width: 100%;
     background: url(./background/6.jpg); opacity: 0.8;
 }
+.header .logo {
+    font-size: 30px;
+}
 
 .menu {
+    /* position: fixed; */
     background: rgba(0, 0, 0, 0.5);
     min-height: 150px;
+    /* width: 100%; */
 }
 
 .menu i {
     font-size: 20px;
+}
+
+.header .header-content>div {
+    font-size: 30px;
 }
 
 .header .header-content {
